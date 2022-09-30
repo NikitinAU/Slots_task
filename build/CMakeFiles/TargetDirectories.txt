@@ -1,0 +1,3 @@
+C:/Slots_task/build/CMakeFiles/Test.dir
+C:/Slots_task/build/CMakeFiles/ALL_BUILD.dir
+C:/Slots_task/build/CMakeFiles/ZERO_CHECK.dir

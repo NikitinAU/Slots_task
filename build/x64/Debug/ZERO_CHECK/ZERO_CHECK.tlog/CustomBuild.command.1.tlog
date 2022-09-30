@@ -1,0 +1,10 @@
+^C:\SLOTS_TASK\BUILD\CMAKEFILES\0AAC52DE210D83190C53D7A898DE389E\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Slots_task -BC:/Slots_task/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Slots_task/build/Test.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
